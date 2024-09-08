@@ -1,0 +1,26 @@
+PS C:\Users\oboey\Desktop\prg> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\oboey\Desktop\prg
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/09/08     18:51                git_challenge
+
+
+PS C:\Users\oboey\Desktop\prg> cd git_challenge
+PS C:\Users\oboey\Desktop\prg\git_challenge> git init
+Initialized empty Git repository in C:/Users/oboey/Desktop/prg/git_challenge/.git/  
+PS C:\Users\oboey\Desktop\prg\git_challenge> git add hello_world.txt
+PS C:\Users\oboey\Desktop\prg\git_challenge> git commit -m"hello_world.txtを追加"   
+[main (root-commit) 8b9d1ed] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\oboey\Desktop\prg\git_challenge> git add hello_world.txt
+PS C:\Users\oboey\Desktop\prg\git_challenge> git commit -m"日本語訳を追記"
+[main a1b3c9c] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\oboey\Desktop\prg\git_challenge> git log --oneline
+a1b3c9c (HEAD -> main) 日本語訳を追記
+8b9d1ed hello_world.txtを追加
